@@ -1,6 +1,6 @@
 clear -all
 
-analyze -sv12 fsm.sv  
+analyze -sv12 FSM_0101_or_0110_detector.sv  
 
 elaborate -top pattern_0110_or_0101_detector -create_related_covers {precondition witness}
 
